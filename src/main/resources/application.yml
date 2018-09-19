@@ -4,7 +4,7 @@ server:
 spring:
     datasource:
         name: gxmm
-        url: jdbc:mysql://127.0.0.1:3306/nongjicai?serverTimezone=UTC&useSSL=false
+        url: jdbc:mysql://127.0.0.1:3306/zhanyd?serverTimezone=UTC&useSSL=false
         username: root
         password: root
         # 使用druid数据源
@@ -24,8 +24,8 @@ spring:
         poolPreparedStatements: true
         maxOpenPreparedStatements: 20
 mybatis:
-  mapper-locations: classpath:com/nongjicai/app/mapping/*.xml
-  type-aliases-package: com.nongjicai.app.model
+  mapper-locations: classpath:com/zhanyd/app/mapping/*.xml
+  type-aliases-package: com.zhanyd.app.model
 
 #pagehelper分页插件
 pagehelper:
@@ -37,6 +37,6 @@ pagehelper:
 logging:
   config: classpath:logback-spring.xml
   #level:
-    #com.nongjicai.app.mapper: trace
+    #com.zhanyd.app.mapper: trace
     
     

@@ -57,7 +57,7 @@
     </root>
 
 
-    <logger name="com.nongjicai.app.mapper" level="trace" additivity="false">
+    <logger name="com.zhanyd.app.mapper" level="trace" additivity="false">
         <appender-ref ref="console"/>
     </logger>
 </configuration>
